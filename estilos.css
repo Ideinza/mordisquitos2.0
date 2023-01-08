@@ -89,9 +89,14 @@ nav > ul > li > a:hover{
     color: #db349e;
 }
 
-
 img {
 	border-radius: 20px;
+    width: 100%;
+    max-width: 1200px;
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
 }
 
 * {
@@ -110,6 +115,9 @@ img {
   table, th, td {
 	border:1px solid rgb(0, 0, 0);
 	text-align: center;
+  
+  word-break: break-all;
+
   }
 
   .piedepagina{
