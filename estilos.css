@@ -120,6 +120,11 @@ img {
 
   }
 
+  .boton{
+    height:auto;
+    width:auto;
+}
+
   .piedepagina{
 	background-color: aqua;
   }
